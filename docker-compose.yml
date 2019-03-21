@@ -8,9 +8,8 @@ services :
             - 8080:80
         image : 'nginx:latest'
         volumes:
-             - ./content/:/nginx
+             - ./:/nginx
              - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
-             #- ./template/:/nginx
         links:
         - php
     php:
@@ -19,8 +18,7 @@ services :
         #    dockerfile: Dockerfile-php
         image: 'php:7-fpm'
         volumes:
-            - ./content:/nginx
-           # - ./template:/nginx
+            - ./:/nginx
     
   #  jenkins:
  #       build:
