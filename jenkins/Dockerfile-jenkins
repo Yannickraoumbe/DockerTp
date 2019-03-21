@@ -1,0 +1,4 @@
+
+Run	cat /var/jenkins_home/secrets/initialAdminPassword
+
+Run read -p "Make sure you got the Password for jenkins! " -n1 -s 
