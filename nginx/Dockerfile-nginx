@@ -1,0 +1,19 @@
+#Docker files create images
+From nginx:latest
+
+#Workdir /nginx
+
+#Run chmod -R 777 /nginx
+
+RUN apt-get update \
+&& apt-get -y install vim 
+##&& apt-get -y install php7.0 \
+##&& apt install -y mariadb-server
+
+EXPOSE 80
+
+ENV NAME MyWorld
+
+
+
+
