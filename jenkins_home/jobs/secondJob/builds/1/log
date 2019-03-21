@@ -1,0 +1,22 @@
+Started by user [8mha:////4FSEVUUa+0zuJjjEnnaUSsO7LZgxUQXGf1SYytIJC6O3AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/jenkins_home/workspace/secondJob
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Yannickraoumbe/DockerTp
+ > git init /var/jenkins_home/workspace/secondJob # timeout=10
+Fetching upstream changes from https://github.com/Yannickraoumbe/DockerTp
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Yannickraoumbe/DockerTp +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Yannickraoumbe/DockerTp # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Yannickraoumbe/DockerTp # timeout=10
+Fetching upstream changes from https://github.com/Yannickraoumbe/DockerTp
+ > git fetch --tags --progress https://github.com/Yannickraoumbe/DockerTp +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/v2^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/v2^{commit} # timeout=10
+Checking out Revision c8408707947c50f145611684463f607f579e507b (refs/remotes/origin/v2)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c8408707947c50f145611684463f607f579e507b
+Build was aborted
+Aborted by [8mha:////4FSEVUUa+0zuJjjEnnaUSsO7LZgxUQXGf1SYytIJC6O3AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Finished: ABORTED
