@@ -1,0 +1,19 @@
+Started by user [8mha:////4FSEVUUa+0zuJjjEnnaUSsO7LZgxUQXGf1SYytIJC6O3AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZe/dLi1CL9rNS87My8YgDGtiJjwgAAAA==[0mjenkins
+Building in workspace /var/jenkins_home/workspace/Groovy test
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Yannickraoumbe/DockerTp # timeout=10
+Fetching upstream changes from https://github.com/Yannickraoumbe/DockerTp
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Yannickraoumbe/DockerTp +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/v1^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/v1^{commit} # timeout=10
+Checking out Revision 3d19fd99bacae5c92ce011d427de5b4bee4eedb2 (refs/remotes/origin/v1)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3d19fd99bacae5c92ce011d427de5b4bee4eedb2
+Commit message: "Launching jenkins & starting adding something in the groovy test"
+ > git rev-list --no-walk 3d19fd99bacae5c92ce011d427de5b4bee4eedb2 # timeout=10
+Processing DSL script script.groovy
+everything is okay
+Finished: SUCCESS
