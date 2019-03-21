@@ -1,0 +1,10 @@
+Started on Mar 21, 2019 4:15:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 3d19fd99bacae5c92ce011d427de5b4bee4eedb2 (refs/remotes/origin/v1)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h https://github.com/Yannickraoumbe/DockerTp # timeout=10
+Found 1 remote heads on https://github.com/Yannickraoumbe/DockerTp
+[poll] Latest remote head revision on refs/heads/v1 is: 4c6fe7a64c69358cac95042a029a283fc09aef26
+Done. Took 2 sec
+Changes found

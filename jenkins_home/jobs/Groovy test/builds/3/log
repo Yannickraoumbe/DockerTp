@@ -1,0 +1,24 @@
+Started by an SCM change
+Building in workspace /var/jenkins_home/workspace/Groovy test
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Yannickraoumbe/DockerTp
+ > git init /var/jenkins_home/workspace/Groovy test # timeout=10
+Fetching upstream changes from https://github.com/Yannickraoumbe/DockerTp
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Yannickraoumbe/DockerTp +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Yannickraoumbe/DockerTp # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Yannickraoumbe/DockerTp # timeout=10
+Fetching upstream changes from https://github.com/Yannickraoumbe/DockerTp
+ > git fetch --tags --progress https://github.com/Yannickraoumbe/DockerTp +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/v1^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/v1^{commit} # timeout=10
+Checking out Revision 4c6fe7a64c69358cac95042a029a283fc09aef26 (refs/remotes/origin/v1)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4c6fe7a64c69358cac95042a029a283fc09aef26
+Commit message: "did add the jenkins_home file & some poor test"
+ > git rev-list --no-walk 3d19fd99bacae5c92ce011d427de5b4bee4eedb2 # timeout=10
+Processing DSL script script.groovy
+everything is okay
+Finished: SUCCESS

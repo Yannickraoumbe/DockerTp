@@ -1,0 +1,16 @@
+#Docker files create images
+From nginx:latest
+
+Workdir /nginx
+
+Run chmod -R 777 /nginx
+
+RUN apt-get update 
+
+EXPOSE 80
+
+ENV NAME MyWorld
+
+
+
+
